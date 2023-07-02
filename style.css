@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.container
+{
+	height: 110vh;
+	width: 100%;
+	background-image:url("a.png");
+    background-size: cover;
+	background-position: center;
+	position: relative;
+	font-family:Arial,Helvetica,sans-serif;	
+}
+.nav-bar{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px 80px;
+	
+}
+.nav-bar{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px 80px;
+	
+}
+.nav-bar .title{
+	color:white ;
+	font-size: 67px;
+	
+}
+span{
+    color:green;
+}
+.nav-bar p{
+	position: absolute;
+	margin-top: 100px;
+margin-left: 10px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+}
+.menu li a{
+	text-decoration: none;
+	color:aliceblue;
+	font-size: 27px;
+	margin-left: 25px;
+	font-weight: 600;		
+}
+.menu li a:hover{
+	color: green;
+	padding: 10px 20px;
+	border: 2px solid white;
+
+}
+.h1{
+    color:white;
+}
+.abc
+{
+    height:480px;
+    width:1050px;
+    background-color:white;
+    margin-left:200px;
+}
+.xyz
+{
+    height:300px;
+    width:1000px;
+    margin-left:25px;
+    background-image:url('img2.jpg');
+   
+}
+.p
+{
+    font-size:60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:crimson;
+    margin-top:10px;
+    margin-left:200px;
+}
+.p1
+{
+   font-size:30px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:black;
+   margin-left:150px;
+}
+.btn
+{
+	height: 40px;
+	color:black;
+    background:crimson;
+	font-size: 22px;
+    font-weight:solid;
+	padding:5px 30px;
+	margin-bottom:90px;
+	margin-left:400px;
+	border: none;
+	border-radius:5px;
+    cursor: pointer;
+}
+.btn:hover{
+	background: none;
+	border: 2px solid crimson;
+}
+.h
+{
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:white;
+   text-align:center;
+  
+}
+.div{
+	width: 25%;
+	float: left;
+}
+.box{
+	width: 300px;
+	height: 300px;
+	background-color:white;
+    margin-top:50px;
+	margin-left:200px;
+	padding:5px;
+}
+.p2
+{
+    color:white;
+    text-align:center;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image
+{
+    height:200px;
+    width:250px;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:10px;
+}
+.h3
+{
+    font-size:40px;
+    color:crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-weight:solid;
+}
+.button
+{
+	height: 40px;
+	color:black;
+    background:crimson;
+	font-size: 22px;
+    font-weight:solid;
+	padding:5px 30px;
+	margin-top:30px;
+	border: none;
+	border-radius:5px;
+    cursor: pointer;
+}
+.button:hover{
+	background: none;
+	border: 2px solid crimson;
+}
+.outer
+{
+    margin-left:200px;
+    display:grid;
+    grid-template-columns:repeat(3,300px);
+    grid-auto-rows:300px;
+    grid-gap:10px;
+      
+}
+.div1
+{
+    background-color:white;
+}
+.div2                                                                                                              
+{
+	width:100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form
+{
+	background:white;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width:40%;
+	max-width: 6000px;
+	border-radius: 10px;
+	
+}
+form h3{
+	color:black;
+	font-weight:800;
+	margin-bottom: 20px;
+}
+form input,textarea{
+	border:0;
+	margin:10px 0;
+	padding:20px;
+	outline:none;
+	background-color:#F3E3C3;
+	font-size:16px;
+	color:black;
+}
+form button
+{
+	padding:15px;
+	background-color:crimson;
+	color: white;
+	font-size:15px;
+	border: 0;
+	outline:none;
+	cursor: pointer;
+	width:150px;
+	margin:20px auto 0;
+	border-radius: 30px;
+}
